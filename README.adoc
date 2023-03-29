@@ -1,32 +1,8 @@
-== Emoba Assignment 2 - ThatsApp
-
-=== Bearbeitet von
-
-* Manuel Wüst
-
-=== Kompatibel mit der App von
-
-* Luca Lunati, https://github.com/emoba-fhnw/thatsapp-fs22-luca-lunati
-* Tiziano Schacht, https://github.com/emoba-fhnw/freezerapp-fs22-pleink
-
-=== Herausstellungsmerkmal meiner App
-
-* Benutzerfreundliche App, automatische Erkennung und Erstellung von Kontakten, Profil Informationen können aktualisiert werden
-
-
 === Getting Started
 
 Das Profil von einem der kompatiblen Apps muss auf mit dem "Retained"-flag hochgeladen sein, damit die App die Kontakte laden kann.
 Wenn dies der Fall ist, kann auf dem Chats Screen mit + in der Kontaktliste ein Chat ausgewählt werden. Danach wird der Chat-Screen geöffnet und
 es können Text-, Standort- und Bilddaten versendet und empfangen werden.
-
-=== Abgabe
-
-* Dienstag, 24.5.2022, 15:00 Uhr
-
-
-Die Abgabe erfolgt durch ein "Push" auf den Master-Branch Ihres GitHub-Repositories.
-
 
 === Die Aufgabe: Chat-Applikation
 
@@ -52,30 +28,3 @@ Anforderungen:
 * Das UI ist komplett mit Jetpack Compose zu implementieren.
 ** https://developer.android.com/jetpack/compose
 * Implementierungssprache für die gesamte Applikation ist Kotlin.
-* Die im Unterricht erarbeitete Grundstruktur einer Android-App ist anzuwenden.
-
-
-=== Bewertung
-
-Es können in diesem Assignment maximal 4 Punkte erreicht werden. Der Fokus liegt dabei, neben Umsetzung der gewünschten Funktionalität, auf der Code-Qualität. Der Coolness-Faktor des UI wird über den Coolest App Award berücksichtigt.
-
-* 4 Punkte
-** Umsetzung der gesamten gewünschten Funktionalität und der oben genannten Grundanforderungen
-** App stimmt mit dem genannten Herausstellungsmerkmal überein
-** Strukturierung der App in 3 Layer und konsequente Umsetzung der im Unterricht erarbeiteten Grundstruktur einer App.
-** UI Code ist klar strukturiert in unabhängige Screens und via Composable Functions
-** Chat mit mindestens einer weiteren App ist möglich
-* 1 Punkt
-** Text-Nachrichten zwischen zwei Teilnehmern, die beide diesselbe App verwenden, können ausgetauscht werden. Die gesendeten/empfangenen Nachrichten der beiden Teilnehmer werden angezeigt. Der Avatar und der Name des Chat-Teilnehmers wird angezeigt (Hinweis: Avatar und Name müssen dafür einstellbar sein).
-* 0 Punkte
-** falls die Kriterien für einen Punkt nicht erfüllt sind ;-)
-** falls MQTT nicht zum Nachrichtenaustausch verwendet wird
-** falls das Projekt nicht kompilierfähig ist
-** falls die App abstürzt bevor der erste Screen angezeigt wird
-** falls ihr Name nicht unter 'bearbeitet von' eingetragen ist
-** für Plagiate
-
-=== Hinweis
-Für die Bewertung wird Ihre App zunächst auf zwei Devices gestartet (typischerweise einmal im Emulator und einmal auf einem "echten" Android-Phone) und untersucht, ob in diesem Setup (und mit unterschiedlichen Benutzer-Namen) gechattet werden kann.
-
-Erst danach wird untersucht ob eine der angegebenen kompatiblen Applikationen ebenfalls eingesetzt werden kann.
